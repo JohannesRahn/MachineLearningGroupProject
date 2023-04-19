@@ -8,7 +8,7 @@ Nicole Zoppi, and Yannick von der Heyden as part of Nova SBE's Machine Learning 
 the 2022/2023 academic year by Qiwei Han and Alessandro Gambetti. The purpose of the group work is to develop an end-to-end 
 Machine Learning project with data of our choice, clearly highlighting the business use for our model.
 
-The project 
+The project makes use of data extracted from two distinct Kaggle pages
 
 
 ## Table of Contents
