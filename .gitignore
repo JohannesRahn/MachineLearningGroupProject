@@ -1,3 +1,11 @@
 
 data/recommendations.csv
 data/final_df.csv
+data/graph.pickle
+data/graph.pickle
+data/graph_undircted_positive.pickle
+data/graph_undircted.pickle
+data/graph.pickle
+*.pickle
+*.pickle
+data/graph.pickle
