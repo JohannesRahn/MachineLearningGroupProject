@@ -8,8 +8,9 @@ Nicole Zoppi, and Yannick von der Heyden as part of Nova SBE's Machine Learning 
 the 2022/2023 academic year by Qiwei Han and Alessandro Gambetti. The purpose of the group work is to develop an end-to-end 
 Machine Learning project with data of our choice, clearly highlighting the business use for our model.
 
-The project makes use of data extracted from two distinct Kaggle pages
+The project exploits data from two distinct Kaggle pages (["Game Recommendations on Steam"](https://www.kaggle.com/datasets/antonkozyriev/game-recommendations-on-steam?select=games.csv) and ["Steam Store Games (Clean dataset)"](https://www.kaggle.com/datasets/nikdavis/steam-store-games?select=steam.csv)) which contain data on content published to the Steam libary (e.g. games and DLCs) and user-generated content associated with it (e.g. whether a review is positive or not, what general consensus is, how many people found the review useful, etc.). The final work merges data from 4 distinct CSV files and 1 JSON, all of which can be found in the _data_ folder and all of whose contents are covered in detail in notebook [a_csv_creation.ipynb]("a_csv_creation.ipynb"). 
 
+The objective is to develop a Machine Learning pipeline from beginning to end whose output has a clear, pertinent, and useful business use. In this project, we explore multiple models in order to identify the one which is best-suited for predicting whether a given Steam user will enjoy a game or not. This should allow Steam to optimize its service by tailoring it to individual clients and fine-tuning their recommender systems. 
 
 ## Table of Contents
 
@@ -17,11 +18,31 @@ The project makes use of data extracted from two distinct Kaggle pages
 - [Usage](#usage)
 - [Contributing](#contributing)
 - [License](#license)
-- [Contact](##contact)
+- [Contact](#contact)
 
 ## Installation
 
-A step-by-step guide on how to install the project, including any prerequisites or dependencies required.
+To get started with the project, please follow these steps:
+
+1. Clone the repository to your local machine:
+```bash
+git clone https://github.com/JohannesRahn/MachineLearningGroupProject.git
+```
+2. Navigate to the cloned repository:
+```bash
+cd MachineLearningGroupProject
+```
+3. **Install the required dependencies by running:**
+```bash
+pip install -r requirements.txt
+```
+4. Download the recommendations.csv file from the Game Recommendations on [Steam Kaggle](https://www.kaggle.com/datasets/antonkozyriev/game-recommendations-on-steam?select=recommendations.csv) page.
+
+5. Add the recommendations.csv file to the _data_ folder in the local repository.
+
+6. You're now ready to run the project! Navigate to the MachineLearningGroupProject folder and open a_csv_creation.ipynb to get started.
+
+Note: The project is on the _main_ branch, so make sure you are on that branch when cloning the repository.
 
 ## Usage
 
@@ -56,4 +77,3 @@ Contact information for the project owner and maintainers:
 | Johannes Rahn          | [53958@novasbe.pt](mailto:53958@novasbe.pt) |
 | Nicole Zoppi              | [53854@novasbe.pt](mailto:53854@novasbe.pt) |
 | Yannick von der Heyden | [53629@novasbe.pt](mailto:53629@novasbe.pt) |
-
